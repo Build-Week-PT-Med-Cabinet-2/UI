@@ -49,3 +49,38 @@ table {
 }
 
 
+/* css */
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-size: 62.5%;
+}
+
+h1 {
+	font-size: 6rem;
+}
+
+h2, h3 {
+	font-size: 4rem;
+}
+
+p{
+	line-height: 1.5;
+	font-size: 2rem;
+}
+
+.header {
+	max-width: 100%;
+	padding: 1.25em 5%;
+	margin-bottom: auto;
+	background: #048202;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
