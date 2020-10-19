@@ -51,7 +51,7 @@ table {
 
 /* css */
 
-* {
+/* {
 	box-sizing: border-box;
 }
 
@@ -59,6 +59,8 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-size: 62.5%;
+	background: #51354c;
+	color: white;
 }
 
 h1 {
@@ -66,7 +68,7 @@ h1 {
 }
 
 h2, h3 {
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 p{
@@ -76,11 +78,278 @@ p{
 
 .header {
 	max-width: 100%;
-	padding: 1.25em 5%;
-	margin-bottom: auto;
-	background: #048202;
+	padding: 0;
+	margin: auto;
 	display: flex;
-	justify-content: flex-start;
+	justify-items: flex-start;
+	flex-wrap: wrap;
 	align-items: center;
 }
+
+img#logo {
+	border-radius: 50%;
+	height: 50%;
+	width: 50%;
+}
+
+.header nav {
+	font-size: 4rem;
+	color: white;
+}
+
+img#tea {
+	border-radius: 50%;
+	height: 50%;
+	width: 50%;
+}
+
+img#store {
+	border-radius: 50%;
+	height: 50%;
+	width: 50%;
+}
+
+img#plant {
+	border-radius: 50%;
+	height: 50%;
+	width: 50%;
+}
+
+.main-content {
+	max-width: 100%;
+	padding: 1.25em;
+	margin-bottom: auto;
+	display: flex;
+}
+
+.box {
+	flex-direction: row;
+	height: 33%;
+	width: 33%;
+}
+
+footer {
+	max-width: 100%;
+	max-height: 20%;
+	margin: auto;
+}
+
+.footer nav {
+	font-size: 4rem;
+	color: white;
+}
+
+@media (max-width: 800px){
+
+}
+
+@media (max-width: 500px){
+
+} */
+
+
+* {
+	box-sizing: border-box;
+	
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	font-size: 62.5%;
+	background: #51354c;
+	color: white;
+}
+
+h1, h3 {
+    font-size: 4rem;
+    margin-bottom: 0.9375em;
+}
+
+h2 {
+	font-size: 2.5rem;
+	margin-bottom: 0.9375em;
+}
+
+p {
+	line-height: 1.5;
+	font-size: 1.8rem;
+}
+
+
+.header {
+	max-width: 100%;
+	padding: 1.25em 5%;
+	margin-bottom: auto;
+	text-align: center;
+	
+}
+
+.header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625em 2%;
+}  
+
+.header nav button {
+    color: black;
+	text-decoration: black;
+	background-color: violet;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0.625em 2%;
+   font-size: 1.6rem;
+   margin: 0.625em;
+  }
+
+
+
+.one {
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+    width: 70%;
+    margin: auto;
+} 
+
+img#logo {
+    vertical-align: middle;
+	display: flex;
+	height: 25%;
+	width: 25%;
+	border-radius: 50%;
+	margin: auto;
+}
+
+
+.main-content {
+	margin-bottom: 30px;
+	height: 75%;
+	max-width: 100%;
+	padding: 0 2%;
+	margin: 0.625em;
+	padding: 0.625em;
+
+}
+
+.boxes {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.box{
+	box-sizing: border-box;
+	width: 33%;
+	height: 50vh;
+}
+
+
+img {
+	height: 50%;
+	width: 50%;
+	border-radius: 50%;
+}
+
+footer {
+	text-align: center;
+	margin-top: 2%;
+	max-width: 100%;
+	padding: 1.25em 5%;
+}
+
+
+.footer nav {
+	max-width: 50%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    padding: 1.25em 2%;
+    font-size: 1.6rem;
+}
+
+@media (max-width: 800px) {
+	.header nav {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.main-content {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.boxes {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	
+	.box {
+		width: 50%;
+	}
+
+	footer {
+		width: 100%;
+	}
+	footer nav {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+
+
+}
+
+@media (max-width: 500px) {
+	.header {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.main-content {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.box {
+		width: 75%;	
+	}
+	.boxes {
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+	}
+	footer {
+		width: 100%;
+	}
+
+	footer nav {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
 
