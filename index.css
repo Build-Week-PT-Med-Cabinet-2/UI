@@ -51,106 +51,8 @@ table {
 
 /* css */
 
-/* {
-	box-sizing: border-box;
-}
-
-html, body {
-	height: 100%;
-	width: 100%;
-	font-size: 62.5%;
-	background: #51354c;
-	color: white;
-}
-
-h1 {
-	font-size: 6rem;
-}
-
-h2, h3 {
-	font-size: 3rem;
-}
-
-p{
-	line-height: 1.5;
-	font-size: 2rem;
-}
-
-.header {
-	max-width: 100%;
-	padding: 0;
-	margin: auto;
-	display: flex;
-	justify-items: flex-start;
-	flex-wrap: wrap;
-	align-items: center;
-}
-
-img#logo {
-	border-radius: 50%;
-	height: 50%;
-	width: 50%;
-}
-
-.header nav {
-	font-size: 4rem;
-	color: white;
-}
-
-img#tea {
-	border-radius: 50%;
-	height: 50%;
-	width: 50%;
-}
-
-img#store {
-	border-radius: 50%;
-	height: 50%;
-	width: 50%;
-}
-
-img#plant {
-	border-radius: 50%;
-	height: 50%;
-	width: 50%;
-}
-
-.main-content {
-	max-width: 100%;
-	padding: 1.25em;
-	margin-bottom: auto;
-	display: flex;
-}
-
-.box {
-	flex-direction: row;
-	height: 33%;
-	width: 33%;
-}
-
-footer {
-	max-width: 100%;
-	max-height: 20%;
-	margin: auto;
-}
-
-.footer nav {
-	font-size: 4rem;
-	color: white;
-}
-
-@media (max-width: 800px){
-
-}
-
-@media (max-width: 500px){
-
-} */
-
-
 * {
-	box-sizing: border-box;
-	
+	box-sizing: border-box;	
 }
 
 html, body {
@@ -161,7 +63,7 @@ html, body {
 	color: white;
 }
 
-h1, h3 {
+h3 {
     font-size: 4rem;
     margin-bottom: 0.9375em;
 }
@@ -216,10 +118,7 @@ p {
 
 img#logo {
     vertical-align: middle;
-	display: flex;
-	height: 25%;
-	width: 25%;
-	border-radius: 50%;
+
 	margin: auto;
 }
 
@@ -246,13 +145,14 @@ img#logo {
 	box-sizing: border-box;
 	width: 33%;
 	height: 50vh;
+	text-align: center;
 }
 
 
 img {
 	height: 50%;
 	width: 50%;
-	border-radius: 50%;
+	
 }
 
 footer {
