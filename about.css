@@ -126,16 +126,6 @@ img#logo {
 }
 
 
-.main-content {
-	margin-bottom: 30px;
-	height: 75%;
-	max-width: 100%;
-	padding: 0 2%;
-	margin: 0.625em;
-	padding: 0.625em;
-
-}
-
 .boxes {
 	display: flex;
 	flex-wrap: wrap;
