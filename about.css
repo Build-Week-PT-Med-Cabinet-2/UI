@@ -60,7 +60,7 @@ html, body {
 	width: 100%;
 	font-size: 62.5%;
 	background: #be56ab;
-	color: white;
+	color: rgb(245, 238, 238);
 }
 
 h1 {
@@ -98,7 +98,7 @@ p {
 .header1 nav button {
     color: black;
 	text-decoration: black;
-	background-color: violet;
+	background-color: rgb(148, 77, 148);
     display: flex;
    justify-content: center;
    align-items: center;
