@@ -59,13 +59,14 @@ html, body {
 	height: 100%;
 	width: 100%;
 	font-size: 62.5%;
-	background: #51354c;
+	background: #be56ab;
 	color: white;
 }
 
 h1 {
     font-size: 4rem;
-    margin-bottom: 0.9375em;
+	margin-bottom: 0.9375em;
+	text-align: center;
 }
 
 h2 {
@@ -79,7 +80,7 @@ p {
 }
 
 
-.header {
+.header1 {
 	max-width: 100%;
 	padding: 1.25em 5%;
 	margin-bottom: auto;
@@ -87,14 +88,14 @@ p {
 	
 }
 
-.header nav {
+.header1 nav {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.625em 2%;
 }  
 
-.header nav button {
+.header1 nav button {
     color: black;
 	text-decoration: black;
 	background-color: violet;
@@ -108,7 +109,7 @@ p {
 
 
 
-.one {
+.top {
     display: flex;
     text-align: center;
     vertical-align: center;
@@ -116,7 +117,7 @@ p {
     margin: auto;
 } 
 
-img#logo {
+img#logo1 {
     vertical-align: middle;
 	display: flex;
 	height: 25%;
@@ -126,7 +127,7 @@ img#logo {
 }
 
 
-.boxes {
+.boxes1 {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -134,28 +135,23 @@ img#logo {
 	align-items: center;
 }
 
-.box{
+.box1 {
 	box-sizing: border-box;
 	width: 25%;
 	height: 50vh;
 }
 
 
-img {
-	height: 50%;
-	width: 50%;
+img#one {
+	height: 45%;
+	width: 45%;
 	border-radius: 50%;
 }
 
-footer {
-	text-align: center;
-	margin-top: 2%;
-	max-width: 100%;
-	padding: 1.25em 5%;
-}
 
 
-.footer nav {
+
+.bottom nav {
 	max-width: 50%;
 	display: flex;
 	justify-content: center;
@@ -165,7 +161,7 @@ footer {
 }
 
 @media (max-width: 800px) {
-	.header nav {
+	.header1 nav {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -174,21 +170,21 @@ footer {
 	}
 
 
-	.boxes {
+	.boxes1 {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
 	}
 	
-	.box {
+	.box1 {
 		width: 50%;
 	}
 
 	footer {
 		width: 100%;
 	}
-	footer nav {
+	.bottom nav {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -201,7 +197,7 @@ footer {
 }
 
 @media (max-width: 500px) {
-	.header {
+	.header1 {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
@@ -209,10 +205,10 @@ footer {
 		align-items: center;
 	}
 
-	.box {
+	.box1 {
 		width: 75%;	
 	}
-	.boxes {
+	.boxes1 {
 		flex-wrap: wrap;
 		flex-direction: column;
 		justify-content: center;
@@ -223,7 +219,7 @@ footer {
 		width: 100%;
 	}
 
-	footer nav {
+	.bottom nav {
 		width: 100%;
 		display: flex;
 		flex-direction: column;
